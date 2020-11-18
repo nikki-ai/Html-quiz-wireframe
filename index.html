@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz App</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="app.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <!-- title page -->
+      <section id="Start page">
+        <h1>The Office Quiz</h1>
+
+        <button id="start-quiz">Clock-In</button>
+      </section>
+
+      <!-- Render questions -->
+      <section id="question">
+        <h1>Questions</h1>
+        <form name= "officeQuiz" onsubmit="return submitAnswer()">
+          
+          <div class='box'>
+          <h3>Question 1</h3>
+          <input type="radio" name="question1" id="answer1a" value="A" />
+          <label for="A">A</label><br>
+          <input type="radio" name="question2" id="answer2a" value="B" />
+          <label for="B">B</label><br>
+          <input type="radio" name="question3" id="answer3a" value="C" />
+          <label for="C">C</label><br>
+          <input type="radio" name="question4" id="answer4a" value="D" />
+          <label for="D">D</label><br>
+          </div>
+
+          <div class='box'>
+            <h3>Question 2</h3>
+            <input type="radio" name="question1" id="answer1b" value="A" />
+            <label for="A">A</label><br>
+            <input type="radio" name="question2" id="answer2b" value="B" />
+            <label for="B">B</label><br>
+            <input type="radio" name="question3" id="answer3b" value="C" />
+            <label for="C">C</label><br>
+            <input type="radio" name="question4" id="answer4b" value="D" />
+            <label for="D">D</label><br>
+            </div>
+
+            <div class='box'>
+              <h3>Question 3</h3>
+              <input type="radio" name="question1" id="answer1c" value="A" />
+              <label for="A">A</label><br>
+              <input type="radio" name="question2" id="answer2c" value="B" />
+              <label for="B">B</label><br>
+              <input type="radio" name="question3" id="answer3c" value="C" />
+              <label for="C">C</label><br>
+              <input type="radio" name="question4" id="answer4c" value="D" />
+              <label for="D">D</label><br>
+              </div>
+
+              <div class='box'>
+                <h3>Question 4</h3>
+                <input type="radio" name="question1" id="answer1d" value="A" />
+                <label for="A">A</label><br>
+                <input type="radio" name="question2" id="answer2d" value="B" />
+                <label for="B">B</label><br>
+                <input type="radio" name="question3" id="answer3d" value="C" />
+                <label for="C">C</label><br>
+                <input type="radio" name="question4" id="answer4d" value="D" />
+                <label for="D">D</label><br>
+                </div>
+
+                <div class='box'>
+                  <h3>Question 5</h3>
+                  <input type="radio" name="question1" id="answer1e" value="A" />
+                  <label for="A">A</label><br>
+                  <input type="radio" name="question2" id="answer2e" value="B" />
+                  <label for="B">B</label><br>
+                  <input type="radio" name="question3" id="answer3e" value="C" />
+                  <label for="C">C</label><br>
+                  <input type="radio" name="question4" id="answer4e" value="D" />
+                  <label for="D">D</label><br>
+                  </div>
+
+                  <div class='box'>
+                    <h3>Question 6</h3>
+                    <input type="radio" name="question1" id="answer1f" value="A" />
+                    <label for="A">A</label><br>
+                    <input type="radio" name="question2" id="answer2f" value="B" />
+                    <label for="B">B</label><br>
+                    <input type="radio" name="question3" id="answer3f" value="C" />
+                    <label for="C">C</label><br>
+                    <input type="radio" name="question4" id="answer4f" value="D" />
+                    <label for="D">D</label><br>
+                    </div>
+
+                    <div class='box'>
+                      <h3>Question 7</h3>
+                      <input type="radio" name="question1" id="answer1g" value="A" />
+                      <label for="A">A</label><br>
+                      <input type="radio" name="question2" id="answer2g" value="B" />
+                      <label for="B">B</label><br>
+                      <input type="radio" name="question3" id="answer3g" value="C" />
+                      <label for="C">C</label><br>
+                      <input type="radio" name="question4" id="answer4g" value="D" />
+                      <label for="D">D</label><br>
+                      </div>
+
+                      <div class='box'>
+                        <h3>Question 8</h3>
+                        <input type="radio" name="question1" id="answer1h" value="A" />
+                        <label for="A">A</label><br>
+                        <input type="radio" name="question2" id="answer2h" value="B" />
+                        <label for="B">B</label><br>
+                        <input type="radio" name="question3" id="answer3h" value="C" />
+                        <label for="C">C</label><br>
+                        <input type="radio" name="question4" id="answer4h" value="D" />
+                        <label for="D">D</label><br>
+                        </div>
+
+                        <div class='box'>
+                          <h3>Question 9</h3>
+                          <input type="radio" name="question1" id="answer1i" value="A" />
+                          <label for="A">A</label><br>
+                          <input type="radio" name="question2" id="answer2i" value="B" />
+                          <label for="B">B</label><br>
+                          <input type="radio" name="question3" id="answer3i" value="C" />
+                          <label for="C">C</label><br>
+                          <input type="radio" name="question4" id="answer4i" value="D" />
+                          <label for="D">D</label><br>
+                          </div>
+
+                          <div class='box'>
+                            <h3>Question 10</h3>
+                            <input type="radio" name="question1" id="answer1j" value="A" />
+                            <label for="A">A</label><br>
+                            <input type="radio" name="question2" id="answer2j" value="B" />
+                            <label for="B">B</label><br>
+                            <input type="radio" name="question3" id="answer3j" value="C" />
+                            <label for="C">C</label><br>
+                            <input type="radio" name="question4" id="answer4j" value="D" />
+                            <label for="D">D</label><br>
+                            </div>
+
+        </form>
+      </section>
+      <!-- Wrong Answer Prompt -->
+      <section id="wrongAnswer">
+        <h1>Wrong Answer</h1>
+        <h2>Oops try again, the answer was ${?}</h2>
+      </section>
+      
+      <!-- Correct Answer Prompt -->
+      <section id="correctAnswer">
+        <h1>Correct Answer</h1>
+        <h2>That was correct, Woohoo!</h2>
+      </section>
+      <button id="next-button">Next</button>
+      <!-- Final Test Score -->
+      <section id="final-score">
+        <h1>Final Score</h1>
+        <h2>You scored a ${correctCount} out of 10</h2>
+        <button id="restart-button">Put in Overtime</button>
+      </section>
+
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
